@@ -50,6 +50,7 @@ public class ConverterSvc {
             String n = jsonObject.get("bpi").getAsJsonObject().get(currency.toString()).getAsJsonObject().get("rate").getAsString();
             NumberFormat nf = NumberFormat.getInstance();
             rate = nf.parse(n).doubleValue();
+            
         } catch (Exception ex) {
             rate = -1;
         }
