@@ -46,11 +46,14 @@ public class ConverterSvc {
             var json = new BufferedReader(new InputStreamReader(inputStream));
 
             @SuppressWarnings("deprecation")
-            JsonObject jsonObject = new JsonParser().parse(json).getAsJsonObject();
+            JsonObject jsonObject = new JsonParser()
+                                            .parse(json)
+                                            .getAsJsonObject();
+                                            
             String n = jsonObject.get("bpi").getAsJsonObject().get(currency.toString()).getAsJsonObject().get("rate").getAsString();
             NumberFormat nf = NumberFormat.getInstance();
             rate = nf.parse(n).doubleValue();
-            
+
         } catch (Exception ex) {
             rate = -1;
         }
