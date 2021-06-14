@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.cloudacademy</groupId>
+  <groupId>com.treasureio</groupId>
   <artifactId>bitcoin-converter-svc-lib</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
@@ -17,7 +17,7 @@
     <maven.compiler.testTarget>${maven.compiler.testSource}</maven.compiler.testTarget>
     <junit.jupiter.version>5.7.0</junit.jupiter.version>
     <junit.platform.version>1.7.0</junit.platform.version>
-    <mainClass>com.cloudacademy.App</mainClass>
+    <mainClass>com.treasureio.App</mainClass>
   </properties>
 
   <dependencies>

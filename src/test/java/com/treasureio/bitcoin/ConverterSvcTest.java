@@ -1,4 +1,4 @@
-package com.cloudacademy.bitcoin;
+package com.treasureio.bitcoin;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

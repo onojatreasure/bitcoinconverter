@@ -1,4 +1,4 @@
-package com.cloudacademy.bitcoin;
+package com.treasureio.bitcoin;
 
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
